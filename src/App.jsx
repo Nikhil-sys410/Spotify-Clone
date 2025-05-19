@@ -1,4 +1,5 @@
 import Sidebar from "./components/sidebar";
+import Player from "./components/Player";
 
 function App() {
   return (
@@ -7,6 +8,7 @@ function App() {
         
         <Sidebar />
       </div>
+      <Player />
     </div>
   );
 }
